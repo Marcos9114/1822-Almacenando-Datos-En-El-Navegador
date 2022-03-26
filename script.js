@@ -1,5 +1,4 @@
 import { addTask } from './components/addTask.js';
-<<<<<<< HEAD
 import { displayTasks } from './components/readTasks.js';
 
 const btn = document.querySelector('[data-form-btn]');
@@ -8,14 +7,3 @@ const btn = document.querySelector('[data-form-btn]');
 btn.addEventListener('click', addTask);
 
 displayTasks();
-=======
-import { dispayTasks } from './components/readTasks.js';
-
-const btn = document.querySelector('[data-form-btn]');
-
-
-//Arrow functions o funciones anonimas
-btn.addEventListener('click', addTask);
-
-dispayTasks();
->>>>>>> projectoInicial
